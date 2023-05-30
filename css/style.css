@@ -1,0 +1,140 @@
+*{
+margin:0px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+}
+body
+{
+    background-color: #0c8268;
+   
+}
+
+
+.container .bar1{
+padding:8px;
+margin:7px;
+color:white;
+font-size:30;
+display:flex;
+
+ 
+}
+.container-fluid{
+height:78%;
+width:99.5%;
+background-color:white;
+border:1px;
+border-radius:1%;
+display:flex;
+align-items: center;
+
+padding: 140px 0; */
+margin: 4px auto;
+
+    
+
+}
+.box{
+    margin-top:0px;
+    margin-left:20px;
+    display:flex; 
+    justify-content: space-around;
+    
+}
+form {
+    padding-left: 250px;
+    display: block;
+    margin-top: 0em;
+
+}
+form input{
+   height:30px;
+}
+.bams{
+/*margin:20px;*/
+padding: 30px;
+
+width:40%;
+
+
+}
+
+p{
+color:grey;
+}
+label{
+color:#0c8268;
+}
+.ba{
+margin-left:60px;
+padding:10px;
+font-family:'Bliss2',arial,sans-serif;
+font-size:25;
+font-weight: bold;
+}
+
+.login-heading{
+color:#0c8268;
+font-size:15;
+text-decoration: underline;
+
+
+}
+.container{
+    display: flex;
+    flex-flow: column;
+   
+    padding: 0px 5px;
+    
+
+
+
+}
+.left right-panel{
+
+/*margin-right:20px;*/
+float: left;
+}
+.btn{
+margin:5px;
+
+}
+.clear{
+    clear:both;
+}
+.container .bar2{
+padding:20px;
+
+color:white;
+
+font-family: 'Bliss2', Arial, sans-serif;
+
+font-size:15;
+}
+@media only screen and (max-width:500px){
+
+  
+  .bar1{
+    flex-wrap:wrap;
+  
+  }
+
+    
+    .box{
+        flex-wrap:wrap;
+       
+    }
+    .bams{
+        margin-left:-50%;
+        margin-top:-27%;
+    }
+ form{
+    margin-left:-30%;
+ }
+    
+}
+
